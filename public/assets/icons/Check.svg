@@ -1,0 +1,15 @@
+<svg
+  width="12"
+  height="13"
+  viewBox="0 0 12 13"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  className={`${styles.checkIcon} ${isSelected ? styles.selectedDay : ''}`}
+>
+  <path
+    d="M1 6.83333L4.33333 11L11 1"
+    stroke={isSelected ? "#007bff" : "#C8D0D2"} 
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+</svg>

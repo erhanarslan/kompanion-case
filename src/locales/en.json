@@ -1,0 +1,46 @@
+{
+    "navigation": {
+      "next": "Next",
+      "back": "Back",
+      "save": "Save"
+    },
+    "steps": {
+      "step1Title": "Let's hear more about you to prepare your personal workout plan",
+      "step2Title": "Pick your workout days",
+      "step3Title": "What is your fitness goal?",
+      "step4Title": "Final step. Complete your registration"
+    },
+    "units": {
+      "cm": "CM",
+      "kg": "KG"
+    },
+    "attributes": {
+      "height": "Your height",
+      "weight": "Your weight"
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "goals": {
+      "loseWeight": "Lose weight",
+      "buildMuscle": "Build muscle",
+      "stayHealth": "Stay healthy"
+    },
+    "form": {
+      "name": "Name",
+      "surname": "Surname",
+      "email": "E-mail",
+      "password": "Password"
+    },
+    "messages": {
+      "congrats": "Congrats, registration is completed.",
+      "wentWrong": "Something went wrong! Please check your connection."
+    }
+  }
+  

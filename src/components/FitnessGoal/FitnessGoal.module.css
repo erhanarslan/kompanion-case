@@ -1,0 +1,56 @@
+.fitnessGoals {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    background-color: var(--input-field-color);
+    padding: 0.5rem;
+    animation: .5s ease-out 0s 1 slideInFromLeft;
+    
+  }
+  
+  .fitnessGoalOption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    border: none;
+    padding: 0 8px;
+    
+  }
+  
+  .goalIcon {
+    width: 20px;  
+    height: 20px;
+    margin-right: 8px; 
+  }
+  
+  .goalText {
+    flex-grow: 1; 
+    margin-right: 10px; 
+    color: var(--text-color)
+  }
+  
+  
+  .daySeperator {
+    height: 1px;
+    background-color: var(--line-color)
+    
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Window sizes */
+@media only screen and (max-width: 1024px) {
+  /* Styles for desktop screens */
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Colors */
+:root {
+  --base-color: #4140e6;
+  --base-color-secondary: #5453e3;
+  --background-color: #e8e8ff;
+  --disabled-color: #d0cfff;
+  --text-color: #183137;
+  --input-field-color:#F6F8F9;
+  --line-color: #9B9BEB;
+  --unselected-text-color: #C8D0D2;
+
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  
+}
+.language-switcher{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  
+  
+}
+.langButton{
+  width: 170px;
+    height: 48px;
+    background-color: var(--base-color);
+    color: var(--input-field-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Reset CSS */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
