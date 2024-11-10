@@ -26,6 +26,7 @@ const Register = () => {
     }
   };
   return (
+    // deciding animation direction 
     <div className={`container ${i18n.language === 'ar' ? 'stepAnimationAr': ''}`}>
       {renderStep()}
     </div>

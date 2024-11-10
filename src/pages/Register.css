@@ -48,7 +48,6 @@
       border: none;
       border-radius: 5px;
       background-color:var(--input-field-color);
-      /* animation: .5s ease-out 0s 1 slideInFromRight; */
       
   }
   .inputWrapper {

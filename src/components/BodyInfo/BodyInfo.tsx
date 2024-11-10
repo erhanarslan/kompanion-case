@@ -6,7 +6,7 @@ import { postData } from '../../utils/services/registerService';
 const BodyInfo = () => {
   const {  nextStep,updateRegisterData, registerData } = useRegisterContext();
   const { t, i18n } = useTranslation();
-
+  //HandleNext function refers to Next button, when click the button post daha and go to next page
   const handleNext = async () => {
     try {
       await postData(registerData);
@@ -42,6 +42,7 @@ const BodyInfo = () => {
           value={registerData.weight || ""}
           onChange={(e) => updateRegisterData({ weight: e.target.value })}
         />
+        {/* This span bring weight unit in english and arabic with which condition applied as a language. Also same situation for weight unit below */}
            <span className={`inputInfo ${i18n.language === 'ar' ? 'inputInfoAr stepAnimationAr' : ''} `}>
            {t("units.kg")}
         </span>

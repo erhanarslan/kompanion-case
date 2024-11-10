@@ -28,7 +28,7 @@ const LanguageSwitcher = () => {
     setCurrentLang(newLang);
   };
 
-
+  //language selection with a toggle button 
   return (
     <div className="language-switcher">
       <button className="langButton" onClick={toggleLanguage}>

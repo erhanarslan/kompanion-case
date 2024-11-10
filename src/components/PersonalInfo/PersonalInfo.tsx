@@ -1,4 +1,3 @@
-// StepFour.tsx
 import { useRegisterContext } from '../../context/useRegisterContext';
 import { useTranslation } from 'react-i18next';
 import { postData } from '../../utils/services/registerService';
@@ -15,7 +14,7 @@ const PersonalInfo = () => {
       await postData(registerData); 
       alert("Form başarıyla kaydedildi");
     } catch (error) {
-      console.error("Form kaydedilirken bir hata oluştu:", error);
+      console.error(t('messages.wentwrong'), error);
     }
   };
   const handlePrev = () => {
